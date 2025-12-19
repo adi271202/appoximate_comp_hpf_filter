@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_mult_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_mult" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="190685000000fs"></ZoomStartTime>
+      <ZoomEndTime time="192047000001fs"></ZoomEndTime>
+      <Cursor1Time time="191820000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="200"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/tb_mult/a" type="array">
+      <obj_property name="ElementShortName">a[8:0]</obj_property>
+      <obj_property name="ObjectShortName">a[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/b" type="array">
+      <obj_property name="ElementShortName">b[8:0]</obj_property>
+      <obj_property name="ObjectShortName">b[8:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_mult/out" type="array">
+      <obj_property name="ElementShortName">out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">out[17:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">dut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_mult/dut/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/y" type="array">
+         <obj_property name="ElementShortName">y[8:0]</obj_property>
+         <obj_property name="ObjectShortName">y[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a1" type="array">
+         <obj_property name="ElementShortName">a1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a1[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a2" type="array">
+         <obj_property name="ElementShortName">a2[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a2[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a3" type="array">
+         <obj_property name="ElementShortName">a3[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a3[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a4" type="array">
+         <obj_property name="ElementShortName">a4[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a4[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a5" type="array">
+         <obj_property name="ElementShortName">a5[10:0]</obj_property>
+         <obj_property name="ObjectShortName">a5[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/s" type="array">
+         <obj_property name="ElementShortName">s[46:1]</obj_property>
+         <obj_property name="ObjectShortName">s[46:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/c" type="array">
+         <obj_property name="ElementShortName">c[46:1]</obj_property>
+         <obj_property name="ObjectShortName">c[46:1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/a_in" type="array">
+         <obj_property name="ElementShortName">a_in[17:0]</obj_property>
+         <obj_property name="ObjectShortName">a_in[17:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/b_in" type="array">
+         <obj_property name="ElementShortName">b_in[17:0]</obj_property>
+         <obj_property name="ObjectShortName">b_in[17:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/mult" type="array">
+         <obj_property name="ElementShortName">mult[17:0]</obj_property>
+         <obj_property name="ObjectShortName">mult[17:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group153" type="group">
+      <obj_property name="label">booth1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_mult/dut/inst1/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/y_q" type="array">
+         <obj_property name="ElementShortName">y_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">y_q[2:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A" type="array">
+         <obj_property name="ElementShortName">A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A_sum" type="array">
+         <obj_property name="ElementShortName">A_sum[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sum[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A_2sum" type="array">
+         <obj_property name="ElementShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A_sub" type="array">
+         <obj_property name="ElementShortName">A_sub[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sub[9:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst1/A_2sub" type="array">
+         <obj_property name="ElementShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group216" type="group">
+      <obj_property name="label">booth2 </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_mult/dut/inst2/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/y_q" type="array">
+         <obj_property name="ElementShortName">y_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">y_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[10:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A" type="array">
+         <obj_property name="ElementShortName">A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A_sum" type="array">
+         <obj_property name="ElementShortName">A_sum[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sum[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A_2sum" type="array">
+         <obj_property name="ElementShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sum[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A_sub" type="array">
+         <obj_property name="ElementShortName">A_sub[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sub[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst2/A_2sub" type="array">
+         <obj_property name="ElementShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sub[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group217" type="group">
+      <obj_property name="label">booth3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_mult/dut/inst3/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/y_q" type="array">
+         <obj_property name="ElementShortName">y_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">y_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A" type="array">
+         <obj_property name="ElementShortName">A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A_sum" type="array">
+         <obj_property name="ElementShortName">A_sum[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sum[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A_2sum" type="array">
+         <obj_property name="ElementShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sum[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A_sub" type="array">
+         <obj_property name="ElementShortName">A_sub[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sub[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst3/A_2sub" type="array">
+         <obj_property name="ElementShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sub[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group218" type="group">
+      <obj_property name="label">booth4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_mult/dut/inst4/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/y_q" type="array">
+         <obj_property name="ElementShortName">y_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">y_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A" type="array">
+         <obj_property name="ElementShortName">A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A_sum" type="array">
+         <obj_property name="ElementShortName">A_sum[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sum[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A_2sum" type="array">
+         <obj_property name="ElementShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sum[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A_sub" type="array">
+         <obj_property name="ElementShortName">A_sub[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sub[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst4/A_2sub" type="array">
+         <obj_property name="ElementShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sub[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group219" type="group">
+      <obj_property name="label">booth5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_mult/dut/inst5/x" type="array">
+         <obj_property name="ElementShortName">x[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/y_q" type="array">
+         <obj_property name="ElementShortName">y_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">y_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A_out" type="array">
+         <obj_property name="ElementShortName">A_out[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_out[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A" type="array">
+         <obj_property name="ElementShortName">A[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A_sum" type="array">
+         <obj_property name="ElementShortName">A_sum[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sum[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A_2sum" type="array">
+         <obj_property name="ElementShortName">A_2sum[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sum[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A_sub" type="array">
+         <obj_property name="ElementShortName">A_sub[9:0]</obj_property>
+         <obj_property name="ObjectShortName">A_sub[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_mult/dut/inst5/A_2sub" type="array">
+         <obj_property name="ElementShortName">A_2sub[10:0]</obj_property>
+         <obj_property name="ObjectShortName">A_2sub[10:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

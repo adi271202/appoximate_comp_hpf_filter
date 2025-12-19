@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_line_buffer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_line_buffer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="685000001fs"></ZoomEndTime>
+      <Cursor1Time time="510000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="289"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group287" type="group">
+      <obj_property name="label">ram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_line_buffer/dut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/dataIn" type="array">
+         <obj_property name="ElementShortName">dataIn[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/wrEn" type="logic">
+         <obj_property name="ElementShortName">wrEn</obj_property>
+         <obj_property name="ObjectShortName">wrEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/dataOut" type="array">
+         <obj_property name="ElementShortName">dataOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataOut[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rdEn" type="logic">
+         <obj_property name="ElementShortName">rdEn</obj_property>
+         <obj_property name="ObjectShortName">rdEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rd_ptr" type="array">
+         <obj_property name="ElementShortName">rd_ptr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_ptr[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rd_ptr_d" type="array">
+         <obj_property name="ElementShortName">rd_ptr_d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_ptr_d[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/empty_flag" type="logic">
+         <obj_property name="ElementShortName">empty_flag</obj_property>
+         <obj_property name="ObjectShortName">empty_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/full_flag" type="logic">
+         <obj_property name="ElementShortName">full_flag</obj_property>
+         <obj_property name="ObjectShortName">full_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/wr_ptr" type="array">
+         <obj_property name="ElementShortName">wr_ptr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_ptr[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/wr_ptr_temp" type="array">
+         <obj_property name="ElementShortName">wr_ptr_temp[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_ptr_temp[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/data_counter_write" type="array">
+         <obj_property name="ElementShortName">data_counter_write[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_counter_write[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/data_counter_write_d" type="array">
+         <obj_property name="ElementShortName">data_counter_write_d[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_counter_write_d[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/data_counter_read" type="array">
+         <obj_property name="ElementShortName">data_counter_read[4:0]</obj_property>
+         <obj_property name="ObjectShortName">data_counter_read[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/data_counter_read_d" type="array">
+         <obj_property name="ElementShortName">data_counter_read_d[4:0]</obj_property>
+         <obj_property name="ObjectShortName">data_counter_read_d[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rd_ptr_temp" type="array">
+         <obj_property name="ElementShortName">rd_ptr_temp[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_ptr_temp[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rsta_busy_0" type="logic">
+         <obj_property name="ElementShortName">rsta_busy_0</obj_property>
+         <obj_property name="ObjectShortName">rsta_busy_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/rstb_busy_0" type="logic">
+         <obj_property name="ElementShortName">rstb_busy_0</obj_property>
+         <obj_property name="ObjectShortName">rstb_busy_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/dataOut_temp" type="array">
+         <obj_property name="ElementShortName">dataOut_temp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataOut_temp[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/DEPTH" type="array">
+         <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/ADDRESS_WRITE_WIDTH" type="array">
+         <obj_property name="ElementShortName">ADDRESS_WRITE_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRESS_WRITE_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/ADDRESS_READ_WIDTH" type="array">
+         <obj_property name="ElementShortName">ADDRESS_READ_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRESS_READ_WIDTH[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/MEMORY_SIZE" type="array">
+         <obj_property name="ElementShortName">MEMORY_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEMORY_SIZE[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group286" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_line_buffer/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dataIn" type="array">
+         <obj_property name="ElementShortName">dataIn[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dataIn_d" type="array">
+         <obj_property name="ElementShortName">dataIn_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn_d[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dataIn_2d" type="array">
+         <obj_property name="ElementShortName">dataIn_2d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataIn_2d[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/wrEn_d" type="logic">
+         <obj_property name="ElementShortName">wrEn_d</obj_property>
+         <obj_property name="ObjectShortName">wrEn_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/rdEn_d" type="logic">
+         <obj_property name="ElementShortName">rdEn_d</obj_property>
+         <obj_property name="ObjectShortName">rdEn_d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/wrEn_2d" type="logic">
+         <obj_property name="ElementShortName">wrEn_2d</obj_property>
+         <obj_property name="ObjectShortName">wrEn_2d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/rdEn_2d" type="logic">
+         <obj_property name="ElementShortName">rdEn_2d</obj_property>
+         <obj_property name="ObjectShortName">rdEn_2d</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/wrEn" type="logic">
+         <obj_property name="ElementShortName">wrEn</obj_property>
+         <obj_property name="ObjectShortName">wrEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/rdEn" type="logic">
+         <obj_property name="ElementShortName">rdEn</obj_property>
+         <obj_property name="ObjectShortName">rdEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dataOut" type="array">
+         <obj_property name="ElementShortName">dataOut[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dataOut[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/empty_flag" type="logic">
+         <obj_property name="ElementShortName">empty_flag</obj_property>
+         <obj_property name="ObjectShortName">empty_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/full_flag" type="logic">
+         <obj_property name="ElementShortName">full_flag</obj_property>
+         <obj_property name="ObjectShortName">full_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/DEPTH" type="array">
+         <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group288" type="group">
+      <obj_property name="label">xpm</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/sleep" type="logic">
+         <obj_property name="ElementShortName">sleep</obj_property>
+         <obj_property name="ObjectShortName">sleep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/rsta" type="logic">
+         <obj_property name="ElementShortName">rsta</obj_property>
+         <obj_property name="ObjectShortName">rsta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/regcea" type="logic">
+         <obj_property name="ElementShortName">regcea</obj_property>
+         <obj_property name="ObjectShortName">regcea</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addra" type="array">
+         <obj_property name="ElementShortName">addra[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dina" type="array">
+         <obj_property name="ElementShortName">dina[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectsbiterra" type="logic">
+         <obj_property name="ElementShortName">injectsbiterra</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterra</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectdbiterra" type="logic">
+         <obj_property name="ElementShortName">injectdbiterra</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterra</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/douta" type="array">
+         <obj_property name="ElementShortName">douta[7:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/sbiterra" type="logic">
+         <obj_property name="ElementShortName">sbiterra</obj_property>
+         <obj_property name="ObjectShortName">sbiterra</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dbiterra" type="logic">
+         <obj_property name="ElementShortName">dbiterra</obj_property>
+         <obj_property name="ObjectShortName">dbiterra</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/clkb" type="logic">
+         <obj_property name="ElementShortName">clkb</obj_property>
+         <obj_property name="ObjectShortName">clkb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/rstb" type="logic">
+         <obj_property name="ElementShortName">rstb</obj_property>
+         <obj_property name="ObjectShortName">rstb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/enb" type="logic">
+         <obj_property name="ElementShortName">enb</obj_property>
+         <obj_property name="ObjectShortName">enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/regceb" type="logic">
+         <obj_property name="ElementShortName">regceb</obj_property>
+         <obj_property name="ObjectShortName">regceb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectsbiterrb" type="logic">
+         <obj_property name="ElementShortName">injectsbiterrb</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterrb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectdbiterrb" type="logic">
+         <obj_property name="ElementShortName">injectdbiterrb</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterrb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/sbiterrb" type="logic">
+         <obj_property name="ElementShortName">sbiterrb</obj_property>
+         <obj_property name="ObjectShortName">sbiterrb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dbiterrb" type="logic">
+         <obj_property name="ElementShortName">dbiterrb</obj_property>
+         <obj_property name="ObjectShortName">dbiterrb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem" type="array">
+         <obj_property name="ElementShortName">mem[0:15][7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem[0:15][7:0]</obj_property>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[0]" type="array">
+            <obj_property name="ElementShortName">[0][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[1]" type="array">
+            <obj_property name="ElementShortName">[1][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[2]" type="array">
+            <obj_property name="ElementShortName">[2][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[3]" type="array">
+            <obj_property name="ElementShortName">[3][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[4]" type="array">
+            <obj_property name="ElementShortName">[4][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[5]" type="array">
+            <obj_property name="ElementShortName">[5][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[6]" type="array">
+            <obj_property name="ElementShortName">[6][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[7]" type="array">
+            <obj_property name="ElementShortName">[7][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[8]" type="array">
+            <obj_property name="ElementShortName">[8][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[9]" type="array">
+            <obj_property name="ElementShortName">[9][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[10]" type="array">
+            <obj_property name="ElementShortName">[10][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[11]" type="array">
+            <obj_property name="ElementShortName">[11][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[12]" type="array">
+            <obj_property name="ElementShortName">[12][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[13]" type="array">
+            <obj_property name="ElementShortName">[13][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[14]" type="array">
+            <obj_property name="ElementShortName">[14][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/mem[15]" type="array">
+            <obj_property name="ElementShortName">[15][7:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/num_char_in_param" type="array">
+         <obj_property name="ElementShortName">num_char_in_param[31:0]</obj_property>
+         <obj_property name="ObjectShortName">num_char_in_param[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/douta_bb" type="array">
+         <obj_property name="ElementShortName">douta_bb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">douta_bb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/doutb_bb" type="array">
+         <obj_property name="ElementShortName">doutb_bb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb_bb[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/ena_i" type="logic">
+         <obj_property name="ElementShortName">ena_i</obj_property>
+         <obj_property name="ObjectShortName">ena_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/wea_i" type="array">
+         <obj_property name="ElementShortName">wea_i[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea_i[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addra_i" type="array">
+         <obj_property name="ElementShortName">addra_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dina_i" type="array">
+         <obj_property name="ElementShortName">dina_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dina_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/ena_o_pipe_ctrl" type="logic">
+         <obj_property name="ElementShortName">ena_o_pipe_ctrl</obj_property>
+         <obj_property name="ObjectShortName">ena_o_pipe_ctrl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/regcea_i" type="logic">
+         <obj_property name="ElementShortName">regcea_i</obj_property>
+         <obj_property name="ObjectShortName">regcea_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_wr_a.addra_int " type="array">
+         <obj_property name="ElementShortName">\gen_wr_a.addra_int [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_wr_a.addra_int [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/enb_i" type="logic">
+         <obj_property name="ElementShortName">enb_i</obj_property>
+         <obj_property name="ObjectShortName">enb_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/web_i" type="array">
+         <obj_property name="ElementShortName">web_i[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web_i[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addrb_i" type="array">
+         <obj_property name="ElementShortName">addrb_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/dinb_i" type="array">
+         <obj_property name="ElementShortName">dinb_i[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb_i[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/enb_o_pipe_ctrl" type="logic">
+         <obj_property name="ElementShortName">enb_o_pipe_ctrl</obj_property>
+         <obj_property name="ObjectShortName">enb_o_pipe_ctrl</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/regceb_i" type="logic">
+         <obj_property name="ElementShortName">regceb_i</obj_property>
+         <obj_property name="ObjectShortName">regceb_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_rd_b.clkb_int " type="logic">
+         <obj_property name="ElementShortName">\gen_rd_b.clkb_int </obj_property>
+         <obj_property name="ObjectShortName">\gen_rd_b.clkb_int </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_rd_b.addrb_int " type="array">
+         <obj_property name="ElementShortName">\gen_rd_b.addrb_int [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_rd_b.addrb_int [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_rd_b.doutb_reg " type="array">
+         <obj_property name="ElementShortName">\gen_rd_b.doutb_reg [7:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_rd_b.doutb_reg [7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_rd_b.sbiterrb_i " type="logic">
+         <obj_property name="ElementShortName">\gen_rd_b.sbiterrb_i </obj_property>
+         <obj_property name="ObjectShortName">\gen_rd_b.sbiterrb_i </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_rd_b.dbiterrb_i " type="logic">
+         <obj_property name="ElementShortName">\gen_rd_b.dbiterrb_i </obj_property>
+         <obj_property name="ObjectShortName">\gen_rd_b.dbiterrb_i </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/sleep_int_a" type="logic">
+         <obj_property name="ElementShortName">sleep_int_a</obj_property>
+         <obj_property name="ObjectShortName">sleep_int_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/sleep_int_b" type="logic">
+         <obj_property name="ElementShortName">sleep_int_b</obj_property>
+         <obj_property name="ObjectShortName">sleep_int_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addra_aslp_sim" type="array">
+         <obj_property name="ElementShortName">addra_aslp_sim[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addra_aslp_sim[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/addrb_aslp_sim" type="array">
+         <obj_property name="ElementShortName">addrb_aslp_sim[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb_aslp_sim[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectsbiterra_sim" type="logic">
+         <obj_property name="ElementShortName">injectsbiterra_sim</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterra_sim</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectdbiterra_sim" type="logic">
+         <obj_property name="ElementShortName">injectdbiterra_sim</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterra_sim</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectsbiterrb_sim" type="logic">
+         <obj_property name="ElementShortName">injectsbiterrb_sim</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterrb_sim</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/injectdbiterrb_sim" type="logic">
+         <obj_property name="ElementShortName">injectdbiterrb_sim</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterrb_sim</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.wra " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.wra </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.wra </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.wrb " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.wrb </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.wrb </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.rda_cap " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.rda_cap </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.rda_cap </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.rdb_cap " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.rdb_cap </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.rdb_cap </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.wea_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.wea_cap [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.wea_cap [0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.web_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.web_cap [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.web_cap [0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.addra_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.addra_cap [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.addra_cap [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.addra_rd_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.addra_rd_cap [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.addra_rd_cap [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.addrb_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.addrb_cap [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.addrb_cap [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.addrb_rd_cap " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.addrb_rd_cap [3:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.addrb_rd_cap [3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.t_half_period_a " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.t_half_period_a [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.t_half_period_a [31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.t_half_period_b " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.t_half_period_b [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.t_half_period_b [31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.clk_prd_det_a " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.clk_prd_det_a </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.clk_prd_det_a </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.clk_prd_det_b " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.clk_prd_det_b </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.clk_prd_det_b </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.col_win_max " type="array">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.col_win_max [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.col_win_max [31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.col_win_wr_a " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.col_win_wr_a </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.col_win_wr_a </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.col_win_rd_a " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.col_win_rd_a </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.col_win_rd_a </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.col_win_wr_b " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.col_win_wr_b </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.col_win_wr_b </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.col_win_rd_b " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.col_win_rd_b </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.col_win_rd_b </obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_line_buffer/dut/weight_ram/xpm_memory_sdpram_inst/xpm_memory_base_inst/\gen_assert_coll_ww.sync_clk_sym.wr_wr_col " type="logic">
+         <obj_property name="ElementShortName">\gen_assert_coll_ww.sync_clk_sym.wr_wr_col </obj_property>
+         <obj_property name="ObjectShortName">\gen_assert_coll_ww.sync_clk_sym.wr_wr_col </obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
